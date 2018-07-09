@@ -17,7 +17,7 @@ phrase = "IM NOT SHOUTING"
 
 lowercased_phrase = phrase # Put a . after phrase and use a String method.
 
-puts "lowercased_phrase"
+puts #{lowercased_phrase}
 
 # Challenge 4: Count how many letters are in that big_word
 
@@ -37,7 +37,7 @@ puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
-proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
+proper_sentence = "i really like programming.".capitalize # Put a . after the string to capitalize it properly.
 
 puts proper_sentence
 
